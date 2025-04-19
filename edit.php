@@ -37,7 +37,7 @@
     <form action="update.php" method="POST">
         <input type="hidden" name="id" placeholder="Name" value="<?php echo $data['id'] ?>"><br>
         <input type="text" name="name" placeholder="Name" value="<?php echo $data['name'] ?>"><br>
-        <input type="text" name="surname" placeholder="Surname" value="<?php echo $data['surname'] ?>"><br>
+        <input type="text" name="surname" placeholder="surname" value="<?php echo $data['surname'] ?>"><br>
         <input type="email" name="email" placeholder="Email" value="<?php echo $data['email'] ?>"><br>
         <input type="submit" name="submit">Submit</input>
     </form>
